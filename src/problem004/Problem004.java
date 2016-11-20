@@ -2,6 +2,12 @@
 
 package problem004;
 
+/**
+ * 
+ * @author martianworm17
+ *
+ */
+
 public class Problem004 {
 
 	public static void main(String[] args) {

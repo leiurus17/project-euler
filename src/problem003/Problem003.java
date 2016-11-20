@@ -8,9 +8,9 @@
 package problem003;
 
 public class Problem003 {
-	
-	public static void main (String[] args) {
-		
+
+	public static void main(String[] args) {
+
 	}
 
 }

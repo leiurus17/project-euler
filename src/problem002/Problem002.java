@@ -11,29 +11,34 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  * 
  */
 
-
 package problem002;
 
+/**
+ * 
+ * @author martianworm 17
+ *
+ */
+
 public class Problem002 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		int a = 1;
 		int b = 0;
 		int currentTerm = 0;
 		int evenTermsSum = 0;
-		
-		while(currentTerm < 4000000) {
+
+		while (currentTerm < 4000000) {
 			currentTerm = a + b;
 			System.out.print(currentTerm + " ");
 			b = a;
 			a = currentTerm;
-			if(currentTerm%2==0) {
+			if (currentTerm % 2 == 0) {
 				evenTermsSum = evenTermsSum + currentTerm;
 			}
 		}
-		
-	System.out.println();
-	System.out.println("The sum of all even terms under 4 million: " + evenTermsSum);
+
+		System.out.println();
+		System.out.println("The sum of all even terms under 4 million: " + evenTermsSum);
 	}
 
 }
